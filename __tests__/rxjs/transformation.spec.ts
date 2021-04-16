@@ -1,5 +1,5 @@
-import { from, interval, Subject, of } from 'rxjs';
-import { map, scan, delay, mergeMap } from 'rxjs/operators';
+import { from, Subject, of } from 'rxjs';
+import { map, scan } from 'rxjs/operators';
 
 // ---- map() ----
 test('map() Add 10 to each number', done => {

@@ -1,5 +1,5 @@
-import { of, merge, concat, interval, timer, combineLatest, Subject, ReplaySubject, forkJoin, throwError, empty, from, BehaviorSubject } from 'rxjs';
-import { mapTo, withLatestFrom, map, delay, take, mergeMap, catchError, startWith, scan } from 'rxjs/operators';
+import { of, merge, concat, combineLatest, Subject, forkJoin, BehaviorSubject } from 'rxjs';
+import { withLatestFrom, startWith } from 'rxjs/operators';
 
 // ---- concat() ----
 test('concat() 2 streams', done => {
